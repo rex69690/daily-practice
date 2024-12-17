@@ -1,0 +1,18 @@
+METHODS FOR TAKING INPUT FROM USER -
+1. readLine();
+2. using scanner class method
+3. using buffer class
+
+
+SCANNER CLASS - belongs to java.util 
+step 1.  import java.util.Scanner;
+
+step 2. Create object of scanner class-
+
+Scanner sc = new Scanner(System.in);
+System.in - for keyboard input
+System.out - for monitor output
+Step3. usage
+System.out.println("Enter input: ")
+string a = sc.nextLine();
+

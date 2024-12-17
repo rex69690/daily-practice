@@ -1,0 +1,63 @@
+
+WRAPPER CLASSES - it is used to wrap (convert) a primitive type into object type
+
+                    
+                       Wrapper Classes            method 1              method2
+
+byte                    Byte			byteValue()
+short 		        Short		        shortValue()
+int 			Integer			intValue()		parseInt(); 
+long			Long			longValue()		
+float 			Float			......
+double			Double			
+char 			Character
+Boolean			Boolean
+
+
+EXAMPLE-
+
+converting to object type
+
+
+class wrapper{
+ pubic static void main(String args[])
+{
+	Integer a = 20;    //object type integer
+	int b = a.intValue();   //converted back to int (primitive)
+	Float c = 12.23f;     //object type float
+	float d = c.floatValue();  //converted back to float(primitive)
+}
+
+
+}
+
+
+
+How to declare object of class?
+
+ClassName objectName = new ClassName();
+
+Integer e = new Integer(20);
+Float f = new Float(12.23f);
+
+
+how to convert string to int;
+string a = "20";
+
+int b = Integer.parseInt(a);   // for int
+
+double c = Double.parseDouble(a); //for double
+
+
+
+extends object exists in every class declaration------
+
+
+
+
+
+
+
+
+
+

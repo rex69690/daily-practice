@@ -1,0 +1,92 @@
+Naming convention -
+
+class names---
+
+U-----U-----U-------U-----
+
+class StudentData{
+}
+
+class StudentDataDemo{
+}
+
+
+Method/Function names -
+
+camelCase -- printData
+snake_case -- print_data
+PascalCase -- PrintData
+
+
+VARIABLES-------
+
+constant variables -
+
+final int FINAL_PRICE = 100;
+
+
+TYPE CASTING - 
+
+conversion from one data type to another
+
+int  a = 20;
+long  b = a;     - destination data type must be bigger than source data type
+
+{above is widening as we increase size of data type}
+
+long  a = 20;
+int  b = (int) a;   -- this is called Narrowing
+
+
+Automatic Type promotion in Expressions Evaluation-
+short a = 20;
+short b = 20;
+int a = a * b;    /promotion from short to int on operation is having
+
+
+float is bigger as compared to long
+
+
+Default value -----
+byte - 0
+short - 0
+int - 0
+long - 0
+float - 0
+double - 0
+Boolean - false
+char - nothing x000000u
+
+//left shift start ke do zero ko right side me shift krdeta hai
+
+//vice versa for right shift
+
+
+
+GETTING INPUT -  there are many ways but 3 important one
+
+1 - Using Console class readLine() method - 
+
+step 1 - import java.io package.
+step 2 - Create object of Console class.
+Console obj = System.console();
+
+step 3 - Call readLine() method.
+String data = obj.readLine("msg");
+       
+             OR
+String data = System.console().readLine("msg");
+
+
+
+
+
+
+
+
+
+
+
+
+
+

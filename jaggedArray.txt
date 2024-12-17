@@ -1,0 +1,15 @@
+Jagged array - it is a 2d array in which different rows can have different data type or different number of columns...
+
+
+Syntax -
+
+-> For jagged array we do not declare the number of columns to be in array
+
+int arr[][] = new[4][];
+
+now we can declare each row  individually
+
+arr[0] = new int[3];    // first row will have 3 values
+arr[1] = new int[4];    // second row will have 4 values
+arr[2] = new int[2];    // third row will have 2 values
+arr[3] = new int[1];    // forth row will have only 1 value.

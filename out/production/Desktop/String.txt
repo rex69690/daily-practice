@@ -1,0 +1,25 @@
+String - 
+-Collection of characters
+-String can be represented as an object of a class names String contained in java.lang package
+-String is immutable , we cannot change its content but we can surely do operations on it.
+
+String s1 = "hello";
+s1 = s1 + "java";
+
+#it will concatenate but it will create new array as an operation is done on a string..
+
+-StringBuffer and StringBuilder are mutable
+
+
+STRING CREATION -----
+1 - String s1 = new String();
+    System.out.println(s1);   //empty string
+
+2 - String(char arr[]);
+    char arr[] = {"s" ,"v"};
+    String s3 = new String(arr);
+
+3. String (char arr[] , int startIndex ,  int noOfCHars);
+   String s4 = new String(arr , 1, 3);
+   System.out.println(s3);
+    
