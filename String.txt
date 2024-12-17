@@ -29,3 +29,11 @@ STRING METHODS------
 1  - length()   -- gives length
 
 2  - equals()   -- compare the values of a string // return true or false
+
+3  - equalsIgnoreCase  -- not case sensitive
+
+4 - startsWith  -- string1.startsWith("H"); // true or false
+
+5 - endsWith -- if string end with;
+
+6 - compareTo()  -- compare two strings
